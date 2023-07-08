@@ -3,6 +3,9 @@ package practice1;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("hello world");
+        System.out.println(add3Int(3,4,5)+add4Int(4,7,8,6));
+        System.out.println(add4Int(5,8,9,7)+add3Int(8,7,5));
+        System.out.println(add4Int(5,8,9,7));
         System.out.println(add3Int(3,8,9));
     }
 
