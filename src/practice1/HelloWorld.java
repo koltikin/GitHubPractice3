@@ -9,4 +9,8 @@ public class HelloWorld {
     public static int add3Int(int a, int b, int c){
         return a+b+c;
     }
+
+    public static int add4Int(int a,int b,int c,int d){
+        return a+b+c+d;
+    }
 }
